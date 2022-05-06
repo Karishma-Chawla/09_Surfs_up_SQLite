@@ -1,22 +1,19 @@
-# surfs_up
------------------------------------------------------------
-Analyzing weather data in jupyter notebook
-
+# Surfs_up
 # Overview of analysis
------------------------------------------------------------
-The project is to analyze and visualize the temperature statistics for June and December to determine if running a surf shop is viable business proposition. In order to get the temperature data , two seperate queries are run, one being for June and the other being December. Once we run our queries information is converted them to dataframe. From the dataframe, summary statistics is created using the .describe() method. Here is what we found:
+The project is to analyze and visualize the temperature statistics for June and December to determine if running a surf shop is viable business proposition. In order to get the temperature data , two seperate queries are run, one being for June and the other being December. Nect, information is converted to dataframe. From the dataframe, summary statistics is created using the .describe() method. Here is what we found:
 
 # Results
------------------------------------------------------------
--- In June we had a total count of 1700, mean of 74.9, min of 64.0 and max of 85.0
+-- In June mean temperature was at 74.9 with min of 64.0 and max of 85.0
+
+![image](https://user-images.githubusercontent.com/98617082/167049800-06ac2edb-a6e8-42f7-88a1-444caa6aa725.png)
+
+-- In December mean temperature was at 71.0 with min of 56.0 and max of 83.0
+
+![image](https://user-images.githubusercontent.com/98617082/167049895-c779ccae-2bfe-455d-944f-23d1ba7c3d99.png)
 
 
--- In December we had a total count of 1517, mean of 71.0, min of 56.0 and max of 83.0
-
-
-
--- Standard deviation is 3.25 in June and 3.75 -- making a .5 difference in the two different seasons
+-- Standard deviation is 3.25 in June and 3.75 for December -- making for a higher disparity in December a (0.5 difference in the two different seasons)
 
 # Summary
 -----------------------------------------------------------
-From our data we can tell what our temperatures are but since there are other attributes to the weather such as precipitation it shows that we can run additional queries to let us know whether or not people can come and visit the shop. If we are able to gain more data for the area we can run even more queries! From there we can decide how we would like to build the shop and what areas would make this a more prominent location for visitors to come.
+The purpose of the analysis of temperature trends before opening the surf shop.The analysis shows that mean and max temperatures are close for both the monthts though the  minimum varies a little. However,  other attributes can be measured such as precipitation to give a more holistic view on weather:   additional queries can include include query to measure precipitation and can include more months in Summers and winters.
